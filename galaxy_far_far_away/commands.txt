@@ -1,0 +1,49 @@
+Create a directory(folder)
+    mkdir folderName
+    ex: mkdir galaxy_far_far_away
+
+
+Copy a directory
+    cp -R ~/Desktop/MyFolder /Documents
+
+
+Create a file
+    touch fileName.extention (.js; .md; .html; .ccs; .txt; etc)
+    ex: darth_vader.txt
+
+
+
+Copy a file
+    cp source destination
+    ex: cp ~/Desktop/MyFile.rtf ~/Documents
+    ex: cp /Users/joanrenfroe/Desktop/ga_sei_course_second_time/git_github_and_terminal/galaxy_far_far_away/death-star/storm-troopers.txt /Users/joanrenfroe/Desktop/ga_sei_course_second_time/git_github_and_terminal/galaxy_far_far_away/tatooine
+    
+
+
+Move a file
+    mv [file to move] [new location]
+    ex: mv ~/Desktop/MyFile.rtf /Volumes/Backup/MyFolder
+
+Rename a file
+    *This is done by moving a file to the same location but with a different name, this is why we use mv
+
+    ex: mv ~/Desktop/MyFile.rtf ~/Desktop/MyFile-old.rtf
+
+
+Copy Multiple Files
+    use the * wildcard 
+    ex: to copy all the .rtf (Rich Text Files) from your desktop to your Documents folder: 
+        cp ~/Desktop/*.rtf ~/Documents
+
+
+Move Multiple Files 
+    Similar to copy multiple files in that we use the * wildcard
+    ex: 
+
+
+Delete a file
+    rm fileName
+    ex: rm obi_wan.txt
+
+Delete a directory
+    rm -r
